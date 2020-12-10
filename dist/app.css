@@ -2,6 +2,19 @@ header {
   background-color: black;
 }
 
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +27,7 @@ body {
 
 .container {
   width: 1400px;
+  margin: auto;
   background-color: tomato;
 }
 
