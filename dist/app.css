@@ -79,3 +79,8 @@ footer h2 {
   font-size: 13px;
 }
 
+.footer-bot img {
+  margin-right: 10px;
+  float: right;
+}
+
