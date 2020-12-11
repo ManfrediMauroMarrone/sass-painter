@@ -61,3 +61,21 @@ footer {
   background-color: aqua;
 }
 
+footer h2 {
+  font-size: 20px;
+}
+
+.footer-top {
+  display: flex;
+}
+
+.footer-top ul {
+  width: calc(100% / 4);
+  list-style-type: none;
+}
+
+.footer-top ul li {
+  margin: 10px 0;
+  font-size: 13px;
+}
+
