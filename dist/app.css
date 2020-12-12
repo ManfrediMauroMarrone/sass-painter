@@ -142,3 +142,36 @@ footer h2 {
   float: right;
 }
 
+.section-download-left h2 {
+  margin-bottom: 20px;
+}
+
+.section-download-left ul {
+  margin: 20px 0;
+  list-style-type: none;
+}
+
+.section-download-left ul i {
+  margin-right: 5px;
+}
+
+button {
+  padding: 10px;
+  display: flex;
+  background-color: grey;
+}
+
+button i {
+  color: white;
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.button-left {
+  border-right: 1px solid black;
+}
+
+.button-left p {
+  margin-right: 10px;
+}
+
