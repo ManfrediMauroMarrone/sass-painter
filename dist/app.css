@@ -130,7 +130,6 @@ footer h2 {
 }
 
 .section-download {
-  height: 463px;
   color: white;
   display: flex;
   align-items: center;
@@ -140,15 +139,21 @@ footer h2 {
 
 .section-download-left {
   float: right;
+  margin: 103px 0;
 }
 
 .section-download-left h2 {
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
 .section-download-left ul {
   margin: 20px 0;
   list-style-type: none;
+}
+
+.section-download-left ul li {
+  margin: 10px 0;
 }
 
 .section-download-left ul i {
@@ -159,6 +164,7 @@ button {
   padding: 10px;
   display: flex;
   background-color: grey;
+  border: 0;
 }
 
 button i {
@@ -173,5 +179,42 @@ button i {
 
 .button-left p {
   margin-right: 10px;
+}
+
+.section-download-right {
+  float: right;
+  margin-top: 33px;
+  margin-left: 30px;
+  background-color: black;
+  padding: 30px 20px 103px 20px;
+  position: relative;
+}
+
+.section-download-right h2 {
+  margin: 20px 0;
+}
+
+.section-download-right button {
+  padding: 10px 40px;
+  margin-bottom: 50px;
+  background-color: #009CFF;
+}
+
+.section-download-right .offer {
+  padding: 10px;
+  margin: 20px 0;
+  color: black;
+  background-color: white;
+}
+
+.section-download-right p:first-of-type {
+  margin: 20px 0;
+}
+
+.section-download-right::after {
+  content: url("https://www.painterartist.com/static/common/images/ico-30day-money-back-guarantee-en.png");
+  position: absolute;
+  top: 20px;
+  right: 20px;
 }
 
