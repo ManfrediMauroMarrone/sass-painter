@@ -218,3 +218,42 @@ button i {
   right: 20px;
 }
 
+.section-software {
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/6/pillar-02.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.info {
+  text-align: center;
+  line-height: 2;
+  padding: 0 100px;
+}
+
+.info h2 {
+  font-size: 30px;
+}
+
+.interface {
+  margin: auto;
+  max-width: 1000px;
+  max-height: 569px;
+  position: relative;
+}
+
+.interface img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 3;
+}
+
+.interface .back-img {
+  height: 99%;
+  width: 95%;
+  position: absolute;
+  top: 7px;
+  left: 11px;
+  z-index: 1;
+}
+
