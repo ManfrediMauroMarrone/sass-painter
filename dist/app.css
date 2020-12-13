@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
   margin: 0;
   padding: 0;
@@ -255,5 +257,17 @@ button i {
   top: 7px;
   left: 11px;
   z-index: 1;
+}
+
+.interface::after {
+  content: "\F144";
+  font-family: "Fontawesome";
+  font-size: 70px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
 }
 
